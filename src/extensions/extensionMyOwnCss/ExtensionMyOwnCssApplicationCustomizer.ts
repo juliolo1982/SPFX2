@@ -37,7 +37,7 @@ export default class ExtensionMyOwnCssApplicationCustomizer
         customStyle.type = "text/css";
         head.insertAdjacentElement("beforeEnd", customStyle);
     }
-
+ 
     return Promise.resolve();
   }
 }
