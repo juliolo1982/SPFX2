@@ -27,7 +27,7 @@ export default class ExtensionMyOwnCssApplicationCustomizer
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
 
-    const cssUrl: string = this.properties.cssurl;
+    const cssUrl: string = this.properties.cssurl ;
     if (cssUrl) {
         // inject the style sheet
         const head: any = document.getElementsByTagName("head")[0] || document.documentElement;
