@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ExtensionMyOwnCss"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="feceadf0-8564-4946-bc68-9965f78fa2e5"
+        ClientSideComponentProperties="{&quot;cssurl&quot;:&quot;/sites/grupo1/Style%20Library/custom.css&quot;}">
+    </CustomAction>
+</Elements>

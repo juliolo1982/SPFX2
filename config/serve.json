@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://julscompany.sharepoint.com/sites/grupo1/SitePages/home.aspx",
+      "customActions": {
+        "feceadf0-8564-4946-bc68-9965f78fa2e5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "/sites/grupo1/Style%20Library/custom.css"
+          }
+        }
+      }
+    },
+    "extensionMyOwnCss": {
+      "pageUrl": "https://julscompany.sharepoint.com/sites/grupo1/SitePages/myPage.aspx",
+      "customActions": {
+        "feceadf0-8564-4946-bc68-9965f78fa2e5": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "/sites/grupo1/Style%20Library/custom.css"
+          }
+        }
+      }
+    }
+  }
+}
